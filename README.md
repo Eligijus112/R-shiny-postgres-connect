@@ -15,3 +15,9 @@ chmod 600 .env
 ```
 
 This will restrict any writing, reading and executing of the file in the server.
+
+# Running the shiny app from the command line 
+
+```
+Rscript -e 'library(methods); shiny::runApp("app.R", launch.browser = TRUE)'
+```
